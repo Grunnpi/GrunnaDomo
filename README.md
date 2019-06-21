@@ -7,6 +7,13 @@ All my domotic stuff summarized
 ### dtgbot
 * Use my own fork [dtgbot](https://github.com/Grunnpi/dtgbot)
 
-## BIL
-
 ## BOB
+* Electricity counter
+* Webcom
+
+## BIL
+### Features
+* Water counter
+* Temperature/Humidity
+* Garage door
+* Webcam
