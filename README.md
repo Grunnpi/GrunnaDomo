@@ -58,4 +58,4 @@ Water 3v|3v|17|18|gpio24|Garage door 2 gpio
 no|x|19|20|x|no
 no|x|21|22|x|no
 no|x|23|24|x|no
-no|x|25|26|x|no
+Water Gound|GND|25|26|x|no
