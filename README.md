@@ -6,16 +6,20 @@ All my domotic stuff summarized
 ### Installation
 * Domoticz  
     * Wiki provided by Domoticz [here](https://www.domoticz.com/wiki/Raspberry_Pi)
+* Telegram bot
+    * Use *BotFather* to create bot _(token / my user id)_
 * dtgbot
     * Use my own fork [dtgbot](https://github.com/Grunnpi/dtgbot)
 * WiringPi for GPIO control
     * Use [WiringPi guide](WiringPi.md)
 * DHT22 temperature/humidity
     * Use [DHT22 guide](DHT22.md)
+* MotionEye
+    * Follow official [MotionEye](https://github.com/ccrisan/motioneye) distribution
 
 ## BOB
 * Electricity counter
-* Webcom
+* Webcam
 
 ### GPIO
 
