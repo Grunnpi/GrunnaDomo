@@ -17,6 +17,23 @@ All my domotic stuff summarized
 * Electricity counter
 * Webcom
 
+### GPIO
+
+Feature|TYPE|PIN|PIN|TYPE|Feature
+-------|----|---|---|----|-------
+no|x|1|2|x|no
+no|x|3|4|x|no
+no|x|5|6|x|no
+no|x|7|8|x|no
+no|x|9|10|x|no
+no|x|11|12|x|no
+no|x|13|14|x|no
+no|x|15|16|x|no
+no|x|17|18|x|no
+no|x|19|20|x|no
+no|x|21|22|x|no
+no|x|23|24|x|no
+
 ## BIL
 ### Features
 * Water counter
