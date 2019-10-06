@@ -16,10 +16,13 @@ All my domotic stuff summarized
     * Use [DHT22 guide](DHT22.md)
 * MotionEye
     * Follow official [MotionEye](https://github.com/ccrisan/motioneye) distribution
+* Range Detector
+    * Use [Range guide](RangeDetector.md)
 
 ## BOB
 * Electricity counter
-* Webcam
+* Main instance
+* Webcam (sometimes)
 
 ### GPIO
 
@@ -44,6 +47,7 @@ no|x|25|26|x|no
 * Water counter
 * Temperature/Humidity
 * Garage door
+* Rain water collector
 * Webcam
 
 ### GPIO
