@@ -28,19 +28,19 @@ All my domotic stuff summarized
 
 Feature|TYPE|PIN|PIN|TYPE|Feature
 -------|----|---|---|----|-------
-no|x|1|2|x|no
-no|x|3|4|x|no
-no|x|5|6|x|no
-no|x|7|8|x|no
-no|x|9|10|x|no
-no|x|11|12|x|no
-no|x|13|14|x|no
-no|x|15|16|x|no
-no|x|17|18|x|no
-no|x|19|20|x|no
-no|x|21|22|x|no
-no|x|23|24|x|no
-no|x|25|26|x|no
+no|3v|1|2|5v|no
+no|2/SDA|3|4|5v|no
+no|3/SCL|5|6|GND|no
+no|gpio4|7|8|14/TXD|no
+no|GND|9|10|15/RXD|no
+no|gpio17|11|12|gpio18|no
+no|gpio27|13|14|GND|no
+no|gpio22|15|16|gpio23|no
+no|3v|17|18|gpio24|no
+no|10/MOSI|19|20|GND|no
+no|9/MISO|21|22|gpio25|no
+no|11/SCKL|23|24|gpio8|no
+no|GND|25|26|gpio7|no
 
 ## BIL
 ### Features
@@ -55,8 +55,8 @@ no|x|25|26|x|no
 Feature|TYPE|PIN|PIN|TYPE|Feature
 -------|----|---|---|----|-------
 DHT22 3v|3v|1|2|5v|Garade doors 5v
-no|x|3|4|5v|no
-no|x|5|6|GND|Garade doors Ground
+no|2/SDA|3|4|5v|no
+no|3/SCL|5|6|GND|Garade doors Ground
 DHT22 gpio|gpio4|7|8|14/TXD|no
 DHT22 Ground|GND|9|10|15/RXD|no
 Garage Alim gpio|gpio17|11|12|gpio18|no
