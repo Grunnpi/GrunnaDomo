@@ -55,15 +55,15 @@ no|GND|25|26|gpio7|no
 Feature|TYPE|PIN|PIN|TYPE|Feature
 -------|----|---|---|----|-------
 DHT22 3v|3v|1|2|5v|Garade doors 5v
-no|2/SDA|3|4|5v|no
+no|2/SDA|3|4|5v|Watertank range 5v
 no|3/SCL|5|6|GND|Garade doors Ground
 DHT22 gpio|gpio4|7|8|14/TXD|no
 DHT22 Ground|GND|9|10|15/RXD|no
-Garage Alim gpio|gpio17|11|12|gpio18|no
+Garage Alim gpio|gpio17|11|12|gpio18|Watertank range echo
 no|gpio27|13|14|GND|no
 Water pulse|gpio22|15|16|gpio23|Garage door 1 gpio 
 Water 3v|3v|17|18|gpio24|Garage door 2 gpio 
 no|10/MOSI|19|20|GND|no
-no|9/MISO|21|22|gpio25|no
+no|9/MISO|21|22|gpio25|Watertank range trig
 no|11/SCKL|23|24|gpio8|no
 Water Gound|GND|25|26|gpio7|no
