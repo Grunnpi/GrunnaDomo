@@ -63,7 +63,7 @@ Garage Alim gpio|gpio17|11|12|gpio18|Watertank range echo
 no|gpio27|13|14|GND|no
 Water pulse|gpio22|15|16|gpio23|Garage door 1 gpio 
 Water 3v|3v|17|18|gpio24|Garage door 2 gpio 
-no|10/MOSI|19|20|GND|no
+no|10/MOSI|19|20|GND|Watertank range gnd
 no|9/MISO|21|22|gpio25|Watertank range trig
 no|11/SCKL|23|24|gpio8|no
 Water Gound|GND|25|26|gpio7|no
