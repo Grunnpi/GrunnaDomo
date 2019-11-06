@@ -15,7 +15,7 @@ All my domotic stuff summarized
 * DHT22 temperature/humidity
     * Use [DHT22 guide](DHT22.md)
 * MotionEye
-    * Follow official [MotionEye](https://github.com/ccrisan/motioneye) distribution
+    * Use [MotionEye](MotionEye.md)
 * Range Detector
     * Use [Range guide](RangeDetector.md)
 
