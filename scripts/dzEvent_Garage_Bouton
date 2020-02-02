@@ -1,0 +1,24 @@
+return {
+	on = {
+		devices = {
+			'Garage_Bouton_1','Garage_Bouton_2'
+		}
+	},
+	execute = function(domoticz, device)
+		domoticz.log('Device ' .. device.name .. ' was changed', domoticz.LOG_INFO)
+		if ( device.bState and device.lastUpdate.secondsAgo > 4 ) then
+		    local bouton = 'Alim_Bouton_1'
+		    if ( device.name == 'Garage_Bouton_1' ) then
+	            bouton = 'Alim_Bouton_1'
+	        else
+	            bouton = 'Alim_Bouton_2'
+		    end
+		    
+		    domoticz.devices('Alim_Garage').switchOn().forSec(3)
+		    domoticz.devices(bouton).switchOn().forSec(3)
+		    
+		    device.switchOff()
+		    domoticz.log('Action garage[' .. bouton .. '] ok') --decimal
+	    end
+	end
+}
