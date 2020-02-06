@@ -10,6 +10,8 @@ Find a tutorial on the internet...
     * then : ``sudo apt update && sudo apt dist-upgrade``
     * sometimes need also : ``sudo apt-get --fix-broken --fix-missing --assume-yes install``
     * at last reboot
+* Bit of cleanup
+    * ``sudo apt autoremove``
 * openssl (for dtgbot https call to Telegram)
     * ``sudo apt-get install openssl libssl1.0.0 openssh-client openssh-server ssh``
 * LUA 5.3
