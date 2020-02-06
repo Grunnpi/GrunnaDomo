@@ -4,6 +4,8 @@ All my domotic stuff summarized
 ## All Raspberry
 
 ### Installation
+* Rapsberry warm up
+    * See [Raspberry](Raspberry.md)
 * Domoticz  
     * Wiki provided by Domoticz [here](https://www.domoticz.com/wiki/Raspberry_Pi)
 * Telegram bot
