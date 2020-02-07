@@ -21,4 +21,4 @@ Find a tutorial on the internet...
 * LUA "sec" module
     * ``sudo apt-get install lua-sec``
 * JSON lib for dtgbot missing in lua5.3
-    * ``sudo cp /usr/local/share/lua/5.2/JSON.lua /usr/local/share/lua/5.3/JSON.lua``
+    * ``sudo sudo cp /usr/local/share/lua/5.2/JSON.lua /usr/share/lua/5.3/JSON.lua``
