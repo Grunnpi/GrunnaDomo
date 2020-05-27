@@ -21,6 +21,27 @@ All my domotic stuff summarized
 * Range Detector
     * Use [Range guide](RangeDetector.md)
 
+## GRU
+* Main instance
+
+### GPIO
+
+Feature|TYPE|PIN|PIN|TYPE|Feature
+-------|----|---|---|----|-------
+no|3v|1|2|5v|no
+no|2/SDA|3|4|5v|no
+no|3/SCL|5|6|GND|no
+no|gpio4|7|8|14/TXD|no
+no|GND|9|10|15/RXD|no
+no|gpio17|11|12|gpio18|no
+no|gpio27|13|14|GND|no
+no|gpio22|15|16|gpio23|no
+no|3v|17|18|gpio24|no
+no|10/MOSI|19|20|GND|no
+no|9/MISO|21|22|gpio25|no
+no|11/SCKL|23|24|gpio8|no
+no|GND|25|26|gpio7|no
+
 ## BOB
 * Electricity counter
 * Main instance
@@ -69,3 +90,26 @@ no|10/MOSI|19|20|GND|Watertank range gnd
 no|9/MISO|21|22|gpio25|Watertank range trig
 no|11/SCKL|23|24|gpio8|no
 Water Gound|GND|25|26|gpio7|no
+
+## EVE
+### Features
+* Water Tank range detector
+* Movement sensor
+
+### GPIO
+
+Feature|TYPE|PIN|PIN|TYPE|Feature
+-------|----|---|---|----|-------
+no|3v|1|2|5v|no
+no|2/SDA|3|4|5v|no
+no|3/SCL|5|6|GND|no
+no|gpio4|7|8|14/TXD|no
+no|GND|9|10|15/RXD|no
+no|gpio17|11|12|gpio18|no
+no|gpio27|13|14|GND|no
+no|gpio22|15|16|gpio23|no
+no|3v|17|18|gpio24|no
+no|10/MOSI|19|20|GND|no
+no|9/MISO|21|22|gpio25|no
+no|11/SCKL|23|24|gpio8|no
+no|GND|25|26|gpio7|no
