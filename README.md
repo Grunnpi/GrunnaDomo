@@ -8,6 +8,7 @@ All my domotic stuff summarized
     * See [Raspberry](Raspberry.md)
 * Domoticz  
     * Wiki provided by Domoticz [here](https://www.domoticz.com/wiki/Raspberry_Pi)
+    * Few personnal setup [here](Domoticz.md)
 * Telegram bot
     * Use *BotFather* to create bot _(token / my user id)_
 * dtgbot
