@@ -24,3 +24,5 @@ Find a tutorial on the internet...
 * JSON lib for dtgbot missing in lua5.3
     * ``sudo sudo cp /usr/local/share/lua/5.2/JSON.lua /usr/share/lua/5.3/JSON.lua``
         * if not available in Lua5.2 distribution, download this ``JSON.lua`` from current repo
+* install python3 
+* remove python2 _(useless now)_
