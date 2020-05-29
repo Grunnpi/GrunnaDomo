@@ -20,6 +20,8 @@ All my domotic stuff summarized
     * Use [MotionEye](MotionEye.md)
 * Range Detector
     * Use [Range guide](RangeDetector.md)
+* deCONZ Zigbee bridge
+    * Quick guide [deCONZ](deCONZ.md)
 
 ## GRU
 * Main instance
