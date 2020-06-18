@@ -28,3 +28,6 @@ Find a tutorial on the internet...
 * install python3 + make it default version
 * remove python2 _(useless now)_
 * install pip3 for python
+* for LCD :
+    * ``sudo apt install python-smbus``
+    * I2C activate using raspi-config
