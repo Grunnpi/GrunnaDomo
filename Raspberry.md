@@ -31,3 +31,9 @@ Find a tutorial on the internet...
 * for LCD :
     * ``sudo apt install python-smbus``
     * I2C activate using raspi-config
+
+
+# Other stuff
+* GCStar for comics collection :
+    * ``git clone https://gitlab.com/Kerenoc/GCstar.git``
+    * ``sudo apt-get install libgtk2.0-dev``
