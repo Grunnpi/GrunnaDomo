@@ -23,7 +23,9 @@ Find a tutorial on the internet...
     * ``sudo apt-get install lua-sec``
 * JSON lib for dtgbot missing in lua5.3
     * ``sudo sudo cp /usr/local/share/lua/5.2/JSON.lua /usr/share/lua/5.3/JSON.lua``
-        * if not available in Lua5.2 distribution, download this ``JSON.lua`` from current repo        
+        * if not available in Lua5.2 distribution, download this ``JSON.lua`` from current repo
+        * ``sudo touch /usr/share/lua/5.3/JSON.lua``
+        * ``sudo chmod 777 /usr/share/lua/5.3/JSON.lua``
 * install python3 + make it default version
 * remove python2 _(useless now)_
 * install pip3 for python
