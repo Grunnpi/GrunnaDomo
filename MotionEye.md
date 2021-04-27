@@ -13,6 +13,7 @@ What|Why
 ``apt-get install libssl-dev libcurl4-openssl-dev python-dev``|install some dependencies regarding pycurl stuff
 ``pip install pycurl``|yeah
 ``pip install --no-cache-dir motioneye``| motionEye on top by Python installer with my small Raspberry
+or ``python2.7 -m pip install --no-cache-dir motioneye``| to force python2 usage
 ...|then follow official instructions
 
 # MotionEye front end setup
