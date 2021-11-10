@@ -26,6 +26,8 @@ All my domotic stuff summarized
 * Rasp AP (hotspot)
     * Install [here](https://raspap.com/)
     * update lighthttpd port to 88 in `sudo nano /etc/lighttpd/lighttpd.conf`
+    * install macchanger `sudo apt install macchanger` + configure it to change on each network up/down
+    * ifconfig + get mac from eth0 to assign to br0 : `sudo macchanger --mac dc:a6:32:56:3b:49 br0`
 
 ## GRU
 * Main instance
