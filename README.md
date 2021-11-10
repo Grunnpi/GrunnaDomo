@@ -25,6 +25,7 @@ All my domotic stuff summarized
     * Quick guide [deCONZ](deCONZ.md)
 * Rasp AP (hotspot)
     * Install [here](https://raspap.com/)
+    * update lighthttpd port to 88 in `sudo nano /etc/lighttpd/lighttpd.conf`
 
 ## GRU
 * Main instance
