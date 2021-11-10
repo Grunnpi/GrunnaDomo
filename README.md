@@ -23,6 +23,8 @@ All my domotic stuff summarized
     * Use [Range guide](RangeDetector.md)
 * deCONZ Zigbee bridge
     * Quick guide [deCONZ](deCONZ.md)
+* Rasp AP (hotspot)
+    * Install [here](https://raspap.com/)
 
 ## GRU
 * Main instance
