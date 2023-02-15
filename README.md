@@ -31,6 +31,9 @@ All my domotic stuff summarized
 * Dashticz install
     * [here](https://dashticz.readthedocs.io/en/master/gettingstarted/automaticinstall.html)
     * /home/pi/dev
+* Keep2Todoist
+    * [here](https://github.com/flecmart/keep2todoist)
+    *  
 
 ## GRU
 * Main instance
