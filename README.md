@@ -33,7 +33,9 @@ All my domotic stuff summarized
     * /home/pi/dev
 * Keep2Todoist
     * [here](https://github.com/flecmart/keep2todoist)
-    * `docker run -v config.yaml:/home/pi/dev/keep2todoist/config.yaml --restart always ghcr.io/flecmart/keep2todoist:latest`
+    * `sudo docker run -v /home/pi/dev/keep2todoist/config.yaml:/app/config.yaml --restart always ghcr.io/flecmart/keep2todoist:latest`
+    * `sudo docker container logs --follow b777c1fccfe8`
+    * app password generated [here](https://myaccount.google.com/apppasswords)
 
 ## GRU
 * Main instance
