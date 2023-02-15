@@ -33,7 +33,7 @@ All my domotic stuff summarized
     * /home/pi/dev
 * Keep2Todoist
     * [here](https://github.com/flecmart/keep2todoist)
-    *  
+    * `docker run -v config.yaml:/home/pi/dev/keep2todoist/config.yaml --restart always ghcr.io/flecmart/keep2todoist:latest`
 
 ## GRU
 * Main instance
