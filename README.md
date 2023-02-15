@@ -28,6 +28,9 @@ All my domotic stuff summarized
     * update lighthttpd port to 88 in `sudo nano /etc/lighttpd/lighttpd.conf`
     * install macchanger `sudo apt install macchanger` + configure it to change on each network up/down
     * ifconfig + get mac from eth0 to assign to br0 : `sudo macchanger --mac dc:a6:32:56:3b:49 br0`
+* Dashticz install
+    * [here](https://dashticz.readthedocs.io/en/master/gettingstarted/automaticinstall.html)
+    * /home/pi/dev
 
 ## GRU
 * Main instance
