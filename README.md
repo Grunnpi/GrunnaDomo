@@ -36,6 +36,9 @@ All my domotic stuff summarized
     * `sudo docker run -v /home/pi/dev/keep2todoist/config.yaml:/app/config.yaml --restart always ghcr.io/flecmart/keep2todoist:latest`
     * `sudo docker container logs --follow b777c1fccfe8`
     * app password generated [here](https://myaccount.google.com/apppasswords)
+* Ngnix reverse proxy
+    * doc [here](https://github.com/DewGew/Domoticz-Google-Assistant/wiki/Nginx-reverse-proxy)
+    * config file : `/etc/nginx/sites-enabled/default`
 
 ## GRU
 * Main instance
