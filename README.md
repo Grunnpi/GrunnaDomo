@@ -39,6 +39,9 @@ All my domotic stuff summarized
 * Ngnix reverse proxy
     * doc [here](https://github.com/DewGew/Domoticz-Google-Assistant/wiki/Nginx-reverse-proxy)
     * config file : `/etc/nginx/sites-enabled/default`
+* Backup to GDrive
+    * [this tool](https://github.com/bachvtuan/Backup-To-Google-Drive)
+    * Installed in /domoticz/scripts and push to personnal Drive
 
 ## GRU
 * Main instance
