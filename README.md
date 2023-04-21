@@ -42,6 +42,8 @@ All my domotic stuff summarized
 * Backup to GDrive
     * [this tool](https://github.com/bachvtuan/Backup-To-Google-Drive)
     * Installed in /domoticz/scripts and push to personnal Drive
+* Default chromium page
+   * /home/pi/.config/autostart/chrome_domoticz.desktop
 
 ## GRU
 * Main instance
