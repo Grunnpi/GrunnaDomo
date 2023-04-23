@@ -1,0 +1,263 @@
+{
+	"PluginInfos": {
+		"HardwareID": 101,
+		"HomeFolder": "/home/pi/domoticz/plugins/Domoticz-Zigbee/",
+		"StartupFolder": "/home/pi/domoticz/",
+		"UserDataFolder": "/home/pi/domoticz/",
+		"WebRoot": "",
+		"Database": "/home/pi/domoticz/domoticz.db",
+		"Language": "en",
+		"Version": "6.3",
+		"Author": "pipiche38",
+		"Name": "ZigBeeForDomoticzPlugin",
+		"Address": "192.168.1.160",
+		"Port": "9999",
+		"SerialPort": "/dev/serial/by-id/usb-dresden_elektronik_ingenieurtechnik_GmbH_ConBee_II_DE2199254-if00",
+		"Username": "",
+		"Password": "",
+		"Key": "Zigate",
+		"Mode1": "ZigpydeCONZ",
+		"Mode2": "USB",
+		"Mode3": "False",
+		"Mode4": "9440",
+		"Mode5": "http://192.168.1.160:8180",
+		"Mode6": "2",
+		"DomoticzVersion": "2022.1 (build 14525)",
+		"DomoticzHash": "8733c84c9",
+		"DomoticzBuildTime": "2022-10-02 11:00:00",
+		"PluginBranch": "stable6",
+		"PluginVersion": "6.3.010",
+		"TimeStamp": 1676382304,
+		"available": "6.3.010",
+		"available-firmMajor": 0,
+		"available-firmMinor": 0,
+		"FirmwareVersion": "0x26780700",
+		"FirmwareUpdate": false,
+		"PluginUpdate": false,
+		"LogLevel": 7,
+		"Zigpy": true,
+		"CoordinatorModel": "ConBee II",
+		"CoordinatorFirmwareVersion": "0x26780700",
+		"DisplayFirmwareVersion": "deCONZ - 0x26780700",
+		"CoordinatorIEEE": "00212effff05b7bf",
+		"NetworkSize": "Total: 20 | Routers: 14 | End Devices: 6",
+		"NetworkDevices": {
+			"1002": {
+				"_TZ3000_ksw8qtmt": [
+					"TS011F-plug"
+				],
+				"TUYATEC-0l6xaqmi": [
+					"RH3001"
+				],
+				"_TZ3000_gjnozsaz": [
+					"TS011F-plug"
+				],
+				"_TZ3000_typdpbpg": [
+					"TS011F-plug"
+				],
+				"_TZ3000_wamqdr3f": [
+					"TS011F"
+				]
+			},
+			"1189": {
+				"LEDVANCE": [
+					"Plug Z3"
+				]
+			},
+			"110c": {
+				"OSRAM": [
+					"Plug 01"
+				]
+			},
+			"0000": {
+				"eWeLink": [
+					"SA-003-Zigbee",
+					"TH01"
+				]
+			},
+			"113c": {
+				"OWON Technology Inc.": [
+					"PC321"
+				]
+			}
+		}
+	},
+	"Analytics": 1,
+	"Device": {
+		"Version": "3",
+		"ZDeviceName": "Orvibo Contact Sec",
+		"Status": "CreateDB",
+		"SQN": "06",
+		"Ep": {
+			"01": {
+				"0000": {
+					"0004": "ORVIBO",
+					"0005": "396483ce8b3f4e0d8e9d79079a35a420"
+				}
+			},
+			"02": {
+				"0000": {
+					"0004": "ORVIBO",
+					"0005": "396483ce8b3f4e0d8e9d79079a35a420"
+				}
+			},
+			"03": {
+				"0000": {
+					"0004": "ORVIBO",
+					"0005": "396483ce8b3f4e0d8e9d79079a35a420"
+				}
+			}
+		},
+		"Heartbeat": "71",
+		"RIA": "6",
+		"LQI": 255,
+		"Battery": {},
+		"Model": "396483ce8b3f4e0d8e9d79079a35a420",
+		"ForceAckCommands": [],
+		"MacCapa": "8e",
+		"IEEE": "0257000027102288",
+		"Type": {},
+		"ProfileID": {},
+		"ZDeviceID": {},
+		"App Version": "",
+		"Attributes List": {},
+		"DeviceType": "FFD",
+		"HW Version": "",
+		"Last Cmds": [],
+		"LogicalType": "Router",
+		"Manufacturer": "",
+		"Manufacturer Name": "ORVIBO",
+		"NbEp": "3",
+		"PowerSource": "Main",
+		"ReadAttributes": {
+			"Ep": {
+				"01": {
+					"0000": {
+						"TimeStamp": 1676381919,
+						"iSQN": {
+							"0004": "00",
+							"0005": "00"
+						},
+						"Attributes": {
+							"0004": "00",
+							"0005": "00"
+						},
+						"ZigateRequest": {}
+					}
+				},
+				"02": {
+					"0000": {
+						"TimeStamp": 1676381920,
+						"iSQN": {
+							"0004": "01",
+							"0005": "01"
+						},
+						"Attributes": {
+							"0004": "00",
+							"0005": "00"
+						},
+						"ZigateRequest": {}
+					}
+				},
+				"03": {
+					"0000": {
+						"TimeStamp": 1676381920,
+						"iSQN": {
+							"0004": "02",
+							"0005": "02"
+						},
+						"Attributes": {
+							"0004": "00",
+							"0005": "00"
+						},
+						"ZigateRequest": {}
+					}
+				}
+			}
+		},
+		"ReceiveOnIdle": "",
+		"Stack Version": "",
+		"Stamp": {
+			"time": 1676381923.1459215,
+			"Time": "2023-02-14 14:38:43",
+			"MsgType": " 100",
+			"LastSeen": 1676381923
+		},
+		"ZCL Version": "",
+		"Health": "Live",
+		"Capability": [
+			"Full-Function Device",
+			"Main Powered",
+			"Receiver during Idle",
+			"Standard security",
+			"NwkAddr should be allocated"
+		],
+		"ZDPSQN": "02",
+		"RollingLQI": [
+			255,
+			255,
+			255,
+			255,
+			255,
+			255,
+			255,
+			255,
+			255,
+			255,
+			255
+		],
+		"Epv2": {
+			"01": {
+				"ClusterIn": {},
+				"ClusterOut": {},
+				"ProfileID": {},
+				"ZDeviceID": {}
+			},
+			"02": {
+				"ClusterIn": {},
+				"ClusterOut": {},
+				"ProfileID": {},
+				"ZDeviceID": {}
+			},
+			"03": {
+				"ClusterIn": {},
+				"ClusterOut": {},
+				"ProfileID": {},
+				"ZDeviceID": {}
+			}
+		},
+		"ZCLSQN": "02",
+		"WriteAttributes": {
+			"Ep": {
+				"01": {
+					"0000": {
+						"TimeStamp": 0,
+						"iSQN": {},
+						"Attributes": {},
+						"ZigateRequest": {}
+					}
+				},
+				"02": {
+					"0000": {
+						"TimeStamp": 0,
+						"iSQN": {},
+						"Attributes": {},
+						"ZigateRequest": {}
+					}
+				},
+				"03": {
+					"0000": {
+						"TimeStamp": 0,
+						"iSQN": {},
+						"Attributes": {},
+						"ZigateRequest": {}
+					}
+				}
+			}
+		},
+		"PairingInProgress": true,
+		"ConsistencyCheck": "Bad Pairing",
+		"Param": {},
+		"CheckParam": true
+	}
+}

@@ -8,6 +8,7 @@ All my domotic stuff summarized
     * See [Raspberry](Raspberry.md)
 * Domoticz  
     * Wiki provided by Domoticz [here](https://www.domoticz.com/wiki/Raspberry_Pi)
+    * Few personnal setup [here](Domoticz.md)
 * Telegram bot
     * Use *BotFather* to create bot _(token / my user id)_
 * dtgbot
@@ -20,6 +21,29 @@ All my domotic stuff summarized
     * Use [MotionEye](MotionEye.md)
 * Range Detector
     * Use [Range guide](RangeDetector.md)
+* deCONZ Zigbee bridge
+    * Quick guide [deCONZ](deCONZ.md)
+* Rasp AP (hotspot)
+    * Install [here](https://raspap.com/)
+    * update lighthttpd port to 88 in `sudo nano /etc/lighttpd/lighttpd.conf`
+    * install macchanger `sudo apt install macchanger` + configure it to change on each network up/down
+    * ifconfig + get mac from eth0 to assign to br0 : `sudo macchanger --mac dc:a6:32:56:3b:49 br0`
+* Dashticz install
+    * [here](https://dashticz.readthedocs.io/en/master/gettingstarted/automaticinstall.html)
+    * /home/pi/dev
+* Keep2Todoist
+    * [here](https://github.com/flecmart/keep2todoist)
+    * `sudo docker run -v /home/pi/dev/keep2todoist/config.yaml:/app/config.yaml --restart always ghcr.io/flecmart/keep2todoist:latest`
+    * `sudo docker container logs --follow b777c1fccfe8`
+    * app password generated [here](https://myaccount.google.com/apppasswords)
+* Ngnix reverse proxy
+    * doc [here](https://github.com/DewGew/Domoticz-Google-Assistant/wiki/Nginx-reverse-proxy)
+    * config file : `/etc/nginx/sites-enabled/default`
+* Backup to GDrive
+    * [this tool](https://github.com/bachvtuan/Backup-To-Google-Drive)
+    * Installed in /domoticz/scripts and push to personnal Drive
+* Default chromium page
+   * /home/pi/.config/autostart/chrome_domoticz.desktop
 
 ## GRU
 * Main instance
