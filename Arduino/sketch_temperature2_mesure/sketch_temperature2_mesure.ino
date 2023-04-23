@@ -125,6 +125,23 @@ void loop()
   Serial.print("  deg F: ");
   Serial.println(degreesF);
 
+
+// On lit la tension sur le bon port:
+int tension_l = analogRead(temperaturePin);
+
+// La tension est un entier qui va de 0 à 1024 fois la tension de
+// référence (5V chez nous). Il faut la convertir en tension:
+float tension = (tension_l * 5.0) / 1024.0;
+
+// La température se calcule facilement:
+float temp = ((tension_l*5.0)/10.24)-273.15;
+
+// On envoie les résultats sur le port série:
+Serial.print(tension);
+Serial.println(" volts");
+Serial.print(temp);
+Serial.println(" °C");
+
   // These statements will print lines of data like this:
   // "voltage: 0.73 deg C: 22.75 deg F: 72.96"
 
