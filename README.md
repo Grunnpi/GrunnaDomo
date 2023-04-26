@@ -44,6 +44,9 @@ All my domotic stuff summarized
     * Installed in /domoticz/scripts and push to personnal Drive
 * Default chromium page
    * /home/pi/.config/autostart/chrome_domoticz.desktop
+* Node install
+   * `curl -sSL https://deb.nodesource.com/setup_14.x | sudo bash -`
+   * `sudo apt install -y nodejs`
 
 ## GRU
 * Main instance
