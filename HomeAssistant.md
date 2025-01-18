@@ -6,6 +6,7 @@
 * [Installation HA+MQTT+NodeRed](https://pimylifeup.com/home-assistant-docker-compose/)
   * `Europe/Paris` 
 * [Add Zigbee2MQTT](https://antoineperrin.fr/blog/home-assistant-docker-zigbee2mqtt/)
+* [Setup Zigbee2MQTT](https://blog.domadoo.fr/106275-home-assistant-et-zigbee2mqtt-installation/)
 
 # Home Assistant
 * [Install HACS](https://www.hacs.xyz/)
