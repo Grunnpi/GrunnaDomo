@@ -1,0 +1,16 @@
+homeassistant:
+  enabled: true
+mqtt:
+  base_topic: zigbee2mqtt
+  server: mqtt://mosquitto
+serial:
+  adapter: deconz
+  port: >-
+    /dev/serial/by-id/usb-dresden_elektronik_ingenieurtechnik_GmbH_ConBee_II_DE2456254-if00
+frontend:
+  enabled: true
+  port: 8080
+version: 4
+devices:
+  '0xa4c1388e93e79789':
+    friendly_name: '0xa4c1388e93e79789'
