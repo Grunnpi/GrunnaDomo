@@ -1,0 +1,78 @@
+
+
+2020-06-07 13h20
+
+Eau Piscine
+CL : 0
+Ph : 6.4
+ALK: 090
+
+B> 8.04
+
+
+Eau vinaigre +robinet
+CL : 0
+Ph : 6.4
+ALK: 000-020
+
+B> 7.46
+
+
+Eau brom'zol
+CL : 0
+Ph : 8.4
+ALK: 210
+
+B> 8.40
+
+
+
+N> 7.43 for all
+
+#################################################################################################
+
+2020-06-07 13h20
+
+Eau Piscine
+CL : 0
+Ph : 6.4
+ALK: 070
+
+Eau robinet
+CL : 0
+Ph : 7.3
+ALK: 130
+
+-----------------------------------------------------------------------------------------------
+
+neutre
+10 sec -- ORP value: 117 mV -- pH value: 5.87
+
+sondes en place dans eau piscine vers 13h20
+390 sec -- ORP value: 340 mV -- pH value: 4.10
+670 sec -- ORP value: 464 mV -- pH value: 4.27
+800 sec -- ORP value: 477 mV -- pH value: 4.28
+1150 sec -- ORP value: 1139 mV -- pH value: 5.31
+14:12:58.980 -> 3470 sec -- ORP value: 718 mV -- pH value: 4.52
+14:13:38.912 -> 3510 sec -- ORP value: 708 mV -- pH value: 4.50
+
+
+sonde dans eau robinet
+14:13:58.888 -> 3530 sec -- ORP value: 671 mV -- pH value: 4.41
+14:25:08.163 -> 4200 sec -- ORP value: 661 mV -- pH value: 4.42
+
+sonde dans eau piscine
+14:41:21.061 -> [71 sec], ORP/redox[356 mV], pH[3.94], C°[23.00]
+14:59:05.780 -> [1137 sec], ORP/redox[322 mV], pH[3.88], C°[23.00] << ~stable
+
+sonde dans eau robinet
+15:00:17.422 -> [1209 sec], ORP/redox[322 mV], pH[4.11], C°[23.00] 
+15:06:56.807 -> [1609 sec], ORP/redox[1057 mV], pH[5.87], C°[27.00]
+
+sonde dans eau piscine
+15:07:17.296 -> [1629 sec], ORP/redox[281 mV], pH[5.90], C°[27.00]
+15:34:14.989 -> [3249 sec], ORP/redox[-205 mV], pH[5.89], C°[24.00]
+
+sonde dans eau robinet
+15:34:55.951 -> [3290 sec], ORP/redox[-90 mV], pH[5.89], C°[24.00]
+15:50:17.407 -> [4213 sec], ORP/redox[1032 mV], pH[5.84], C°[24.00]

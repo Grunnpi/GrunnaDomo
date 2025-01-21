@@ -1,6 +1,10 @@
 # Home Assistant
 * [Install HACS](https://www.hacs.xyz/)
+  * [mqtt](https://www.home-assistant.io/integrations/mqtt/)
+  * [zigbee2mqtt](https://github.com/zigbee2mqtt/hassio-zigbee2mqtt#installation)
   * [hotspot](https://github.com/joaofl/hassio-addons/tree/master/hassio-hotspot)  
+  * Advanced SSH & Web Terminal
+  * Studio Code Server
 
 # NodeRed
 * [start with NodeRed](https://mikehillyer.com/home-automation/getting-started-with-home-assistant-and-node-red/)
