@@ -37,6 +37,9 @@ http:
   * [hotspot](https://github.com/joaofl/hassio-addons/tree/master/hassio-hotspot)
   * [Install HACS](https://www.hacs.xyz/)
      * HACS // Pyscript
+   
+# Todo 
+* [€/kWh](https://forum.hacf.fr/t/gerer-les-tarifs-de-son-fournisseur-delectricite-dans-le-tableau-energie/31512)
 
 # NodeRed
 * [start with NodeRed](https://mikehillyer.com/home-automation/getting-started-with-home-assistant-and-node-red/)
