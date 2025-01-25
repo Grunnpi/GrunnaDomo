@@ -37,7 +37,13 @@ http:
   * [hotspot](https://github.com/joaofl/hassio-addons/tree/master/hassio-hotspot)
   * [Install HACS](https://www.hacs.xyz/)
      * HACS // Pyscript
-   
+
+# Automation
+## Schedule
+* [Schedule](https://www.home-assistant.io/integrations/schedule/)
+* 
+
+  
 # Todo 
 * [€/kWh](https://forum.hacf.fr/t/gerer-les-tarifs-de-son-fournisseur-delectricite-dans-le-tableau-energie/31512)
 
