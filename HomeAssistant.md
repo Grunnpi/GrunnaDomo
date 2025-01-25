@@ -2,13 +2,14 @@
 * [Install HACS](https://www.hacs.xyz/)
   * [mqtt](https://www.home-assistant.io/integrations/mqtt/)
   * [zigbee2mqtt](https://github.com/zigbee2mqtt/hassio-zigbee2mqtt#installation)
-  * Duck DNS (Proxy Host)
+  * [Nginx Proxy Manager](https://github.com/hassio-addons/addon-nginx-proxy-manager/blob/main/proxy-manager/DOCS.md)
       * domain name (registred @ duckdns using github credz - keep track of duckdns token + domain name)
       * https
       * rasp IP
       * 8123
       * websocket support
       * SSL (Force SSL)
+  * ~Duck DNS (Proxy Host)~
   * Advanced SSH & Web Terminal
   * Studio Code Server
   * SQLite Web
