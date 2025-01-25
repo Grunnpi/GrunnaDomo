@@ -46,6 +46,7 @@ http:
   
 # Todo 
 * [€/kWh](https://forum.hacf.fr/t/gerer-les-tarifs-de-son-fournisseur-delectricite-dans-le-tableau-energie/31512)
+* [Telegram bot](https://community.home-assistant.io/t/telegram-inline-keyboard-template/98917/3)
 
 # NodeRed
 * [start with NodeRed](https://mikehillyer.com/home-automation/getting-started-with-home-assistant-and-node-red/)
