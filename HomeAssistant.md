@@ -1,5 +1,5 @@
 # Home Assistant
-* [Install HACS](https://www.hacs.xyz/)
+* Home Assistant OS (installation from Raspberry Image mgr)
   * [mqtt](https://www.home-assistant.io/integrations/mqtt/)
   * [zigbee2mqtt](https://github.com/zigbee2mqtt/hassio-zigbee2mqtt#installation)
   * [Nginx Proxy Manager](https://github.com/hassio-addons/addon-nginx-proxy-manager/blob/main/proxy-manager/DOCS.md)
@@ -35,8 +35,8 @@ http:
   * SQLite Web
   * Log Viewer
   * [hotspot](https://github.com/joaofl/hassio-addons/tree/master/hassio-hotspot)
-  * HACS stuff
-     * Pyscript
+  * [Install HACS](https://www.hacs.xyz/)
+     * HACS // Pyscript
 
 # NodeRed
 * [start with NodeRed](https://mikehillyer.com/home-automation/getting-started-with-home-assistant-and-node-red/)
