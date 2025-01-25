@@ -9,6 +9,26 @@
       * 8123
       * websocket support
       * SSL (Force SSL)
+  * `configuration.yaml` : add lines  
+```
+python_script:
+
+pyscript:
+  allow_all_imports: true
+  hass_is_global: true
+
+logger:
+  default: info
+  logs:
+    custom_components.pyscript: info
+
+http:
+  ssl_certificate: /ssl/fullchain.pem
+  ssl_key: /ssl/privkey.pem
+  use_x_forwarded_for: true
+  trusted_proxies:
+    - 172.30.33.0/24
+```
   * ~Duck DNS (Proxy Host)~
   * Advanced SSH & Web Terminal
   * Studio Code Server
