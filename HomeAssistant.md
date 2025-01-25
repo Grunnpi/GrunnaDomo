@@ -2,9 +2,8 @@
 * [Install HACS](https://www.hacs.xyz/)
   * [mqtt](https://www.home-assistant.io/integrations/mqtt/)
   * [zigbee2mqtt](https://github.com/zigbee2mqtt/hassio-zigbee2mqtt#installation)
-  * [hotspot](https://github.com/joaofl/hassio-addons/tree/master/hassio-hotspot)
   * Duck DNS (Proxy Host)
-      * domain name (registred @ duckdns using github credz)
+      * domain name (registred @ duckdns using github credz - keep track of duckdns token + domain name)
       * https
       * rasp IP
       * 8123
@@ -14,9 +13,9 @@
   * Studio Code Server
   * SQLite Web
   * Log Viewer
+  * [hotspot](https://github.com/joaofl/hassio-addons/tree/master/hassio-hotspot)
   * HACS stuff
      * Pyscript
-     * 
 
 # NodeRed
 * [start with NodeRed](https://mikehillyer.com/home-automation/getting-started-with-home-assistant-and-node-red/)
