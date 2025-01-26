@@ -31,6 +31,7 @@ http:
 ```
   * ~Duck DNS (Proxy Host)~
   * Advanced SSH & Web Terminal
+  * Samba share
   * Studio Code Server
   * SQLite Web
   * Log Viewer
