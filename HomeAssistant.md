@@ -38,6 +38,7 @@ http:
   * [hotspot](https://github.com/joaofl/hassio-addons/tree/master/hassio-hotspot)
   * [Install HACS](https://www.hacs.xyz/)
      * HACS // Pyscript
+     * HACS // Favicon (setup main title & icon for different HA installations)
 
 # Automation
 ## Schedule
