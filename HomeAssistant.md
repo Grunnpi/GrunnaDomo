@@ -53,6 +53,7 @@ http:
 * [gpio](https://github.com/jdeneef/ha_gpiod) - weird unsupported integration
 * [crazy charts](https://community.home-assistant.io/t/an-automated-pie-chart-of-all-power-consumers-in-my-home/644937)
 * https://github.com/AlexxIT/go2rtc?tab=readme-ov-file#module-hass
+* https://github.com/AlexxIT/WebRTC
 
 # NodeRed
 * [start with NodeRed](https://mikehillyer.com/home-automation/getting-started-with-home-assistant-and-node-red/)
