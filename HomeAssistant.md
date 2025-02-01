@@ -1,5 +1,6 @@
 # Home Assistant
 * Hoe Assistant Core (raspberry + gpio stuff)[here](https://www.home-assistant.io/installation/raspberrypi-other/)
+   * https://wiki.lupsha.com/how-to-install-home-assistant-on-a-raspberry-pi/
    * before running `hass` command,
    * https://wiki.lupsha.com/how-to-upgrade-to-python-3-12-on-raspberry-pi/
 ```
