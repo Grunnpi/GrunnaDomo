@@ -1,4 +1,6 @@
 # Home Assistant
+* Hoe Assistant Core (raspberry + gpio stuff)[here](https://www.home-assistant.io/installation/raspberrypi-other/)
+
 * Home Assistant OS (installation from Raspberry Image mgr)
   * [mqtt](https://www.home-assistant.io/integrations/mqtt/)
   * [zigbee2mqtt](https://github.com/zigbee2mqtt/hassio-zigbee2mqtt#installation)
