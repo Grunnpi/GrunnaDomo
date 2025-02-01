@@ -1,5 +1,9 @@
 # Home Assistant
 * Hoe Assistant Core (raspberry + gpio stuff)[here](https://www.home-assistant.io/installation/raspberrypi-other/)
+   * before running hass command, add : ```
+python3 -m pip install numpy --upgrade
+python3 -m pip install libtiff
+```
 
 * Home Assistant OS (installation from Raspberry Image mgr)
   * [mqtt](https://www.home-assistant.io/integrations/mqtt/)
