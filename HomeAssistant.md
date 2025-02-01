@@ -1,6 +1,7 @@
 # Home Assistant
 * Hoe Assistant Core (raspberry + gpio stuff)[here](https://www.home-assistant.io/installation/raspberrypi-other/)
-   * before running hass command, add : ```
+   * before running `hass` command,
+```
 python3 -m pip install numpy --upgrade
 python3 -m pip install libtiff
 ```
