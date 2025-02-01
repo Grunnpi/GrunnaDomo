@@ -6,6 +6,28 @@ python3 -m pip install numpy --upgrade
 python3 -m pip install libtiff
 ```
 
+`sudo nano /etc/systemd/system/ha@homeassistant.service`
+
+```
+[Unit]
+Description=Home Assistant
+After=network-online.target
+After=network.target mosquitto.service
+
+[Service]
+Type=simple
+User=%i
+ExecStart=/srv/homeassistant/bin/hass
+
+[Install]
+WantedBy=multi-user.target
+```
+Then enable and start the services, in that order.
+```
+systemctl enable ha@homeassistant.service
+systemctl start ha@homeassistant.service
+```
+
 * Home Assistant OS (installation from Raspberry Image mgr)
   * [mqtt](https://www.home-assistant.io/integrations/mqtt/)
   * [zigbee2mqtt](https://github.com/zigbee2mqtt/hassio-zigbee2mqtt#installation)
