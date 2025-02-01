@@ -1,6 +1,7 @@
 # Home Assistant
 * Hoe Assistant Core (raspberry + gpio stuff)[here](https://www.home-assistant.io/installation/raspberrypi-other/)
    * before running `hass` command,
+   * https://wiki.lupsha.com/how-to-upgrade-to-python-3-12-on-raspberry-pi/
 ```
 python3 -m pip install numpy --upgrade
 python3 -m pip install libtiff
