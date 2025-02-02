@@ -3,6 +3,38 @@
    * https://wiki.lupsha.com/how-to-install-home-assistant-on-a-raspberry-pi/
    * before running `hass` command,
    * https://wiki.lupsha.com/how-to-upgrade-to-python-3-12-on-raspberry-pi/
+   * sudo apt install samba -y
+   * sudo nano /etc/samba/smb.conf
+```
+[global]
+workgroup = WORKGROUP
+server string = Samba Server %v
+netbios name = HomeAssistant
+security = user
+map to guest = bad user
+name resolve order = bcast host
+dns proxy = no
+bind interfaces only = yes
+
+[Public]
+path = /home/homeassistant/.homeassistant
+writable = yes
+guest ok = yes
+guest only = yes
+read only = no
+create mode = 0777
+directory mode = 0777
+force user = nobody
+create mask = 0777
+directory mask = 0777
+force user = root
+force create mode = 0777
+force directory mode = 0777
+hosts allow =
+```
+* sudo smbpasswd -a USERNAME_OF_YOUR_CHOICE (existing user)
+* 
+
 ```
 python3 -m pip install numpy --upgrade
 python3 -m pip install libtiff
