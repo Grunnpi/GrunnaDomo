@@ -33,7 +33,8 @@ force directory mode = 0777
 hosts allow =
 ```
 * sudo smbpasswd -a USERNAME_OF_YOUR_CHOICE (existing user)
-* 
+* sudo service smbd restart
+* https://github.com/Kanga-Who/home-assistant/blob/master/Install%20Samba%2C%20Portainer%20and%20MQTT.md
 
 ```
 python3 -m pip install numpy --upgrade
