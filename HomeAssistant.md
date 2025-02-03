@@ -1,3 +1,7 @@
+# Remote Pi
+* pinctrl (test gpio pin)
+* https://www.home-assistant.io/integrations/remote_rpi_gpio/
+
 # Home Assistant
 * Hoe Assistant Core (raspberry + gpio stuff)[here](https://www.home-assistant.io/installation/raspberrypi-other/)
    * https://wiki.lupsha.com/how-to-install-home-assistant-on-a-raspberry-pi/
