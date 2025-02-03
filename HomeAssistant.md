@@ -122,6 +122,7 @@ http:
 * [crazy charts](https://community.home-assistant.io/t/an-automated-pie-chart-of-all-power-consumers-in-my-home/644937)
 * https://github.com/AlexxIT/go2rtc?tab=readme-ov-file#module-hass
 * https://github.com/AlexxIT/WebRTC
+* https://www.hacf.fr/gestion-eau/
 
 # NodeRed
 * [start with NodeRed](https://mikehillyer.com/home-automation/getting-started-with-home-assistant-and-node-red/)
