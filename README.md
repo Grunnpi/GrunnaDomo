@@ -3,6 +3,10 @@ All my domotic stuff summarized
 
 ## All Raspberry
 
+# LCD screen
+* [Drivers](https://github.com/goodtft/LCD-show)
+   * My screen is : `Jun_Electronic pour écran Raspberry Pi 4, Moniteur Tactile capacitif IPS HDMI de 7 Pouces - Écran LCD 1024 * 600 HD (système Raspbian Buster Pris en Charge)`
+
 ### Installation
 * Rapsberry warm up
     * See [Raspberry](Raspberry.md)
