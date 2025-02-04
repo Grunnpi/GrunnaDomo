@@ -124,6 +124,8 @@ http:
 * https://github.com/AlexxIT/WebRTC
 * https://www.hacf.fr/gestion-eau/
 
+* [Water Meter test 1](https://community.home-assistant.io/t/translated-values-to-save-every-5s/768879/2)
+
 # NodeRed
 * [start with NodeRed](https://mikehillyer.com/home-automation/getting-started-with-home-assistant-and-node-red/)
 * [first steps](https://forum.hacf.fr/t/debuter-avec-node-red/334)
