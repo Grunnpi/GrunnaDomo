@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="51694bcf-749e-4596-971d-9b00238d3876" name="Default Changelist" comment="">
+    <list default="true" id="51694bcf-749e-4596-971d-9b00238d3876" name="Default Changelist" comment="ha docker compose files">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,9 +16,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="1cU3alRRH1NRRGtnpOPlW2VAN2E" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -26,11 +30,15 @@
   "keyToString": {
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Dev/workspace/GrunnaDomo/ha/docker/zigbee2mqtt"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Dev\workspace\GrunnaDomo\ha\docker\zigbee2mqtt" />
+      <recent name="C:\Dev\workspace\GrunnaDomo\ha\docker\mosquitto\config" />
+      <recent name="C:\Dev\workspace\GrunnaDomo\ha\docker" />
       <recent name="C:\Dev\workspace\GrunnaDomo" />
     </key>
   </component>
@@ -60,26 +68,29 @@
       <option name="project" value="LOCAL" />
       <updated>1682238396754</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ha docker compose files">
+      <option name="closed" value="true" />
+      <created>1737443801634</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737443801634</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ha docker compose files">
+      <option name="closed" value="true" />
+      <created>1737474893307</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737474893307</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Arduino drafted work for swimming pool sensors" />
     <MESSAGE value="database stuff draft" />
-    <option name="LAST_COMMIT_MESSAGE" value="database stuff draft" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="614" y="110" key="CommitChangelistDialog2" timestamp="1682238395617">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="614" y="110" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1682238395617" />
-    <state x="820" y="439" key="Github.Dialog.Accounts.Choose" timestamp="1682238403947">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="820" y="439" key="Github.Dialog.Accounts.Choose/0.0.1920.1032@0.0.1920.1032" timestamp="1682238403947" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1682238398315">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1682238398315" />
+    <MESSAGE value="ha docker compose files" />
+    <option name="LAST_COMMIT_MESSAGE" value="ha docker compose files" />
   </component>
 </project>
