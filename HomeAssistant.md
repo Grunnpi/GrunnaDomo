@@ -123,6 +123,7 @@ http:
 * https://github.com/AlexxIT/go2rtc?tab=readme-ov-file#module-hass
 * https://github.com/AlexxIT/WebRTC
 * https://www.hacf.fr/gestion-eau/
+* https://github.com/AlexxIT/PythonScriptsPro
 
 * [Water Meter test 1](https://community.home-assistant.io/t/translated-values-to-save-every-5s/768879/2)
 
