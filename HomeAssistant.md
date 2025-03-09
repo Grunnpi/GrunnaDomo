@@ -124,7 +124,7 @@ http:
 * https://github.com/AlexxIT/WebRTC
 * https://www.hacf.fr/gestion-eau/
 * https://github.com/AlexxIT/PythonScriptsPro
-
+* [Compteur Eau !](https://www.auto-domo.fr/home-assistant-et-compteur-eau/]
 * [Water Meter test 1](https://community.home-assistant.io/t/translated-values-to-save-every-5s/768879/2)
 
 # NodeRed
