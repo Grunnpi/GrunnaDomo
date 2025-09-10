@@ -1,4 +1,4 @@
-# Remote Pi
+# Remote Pi - water + garage stuff
 * pinctrl (test gpio pin)
 * https://www.home-assistant.io/integrations/remote_rpi_gpio/
 
