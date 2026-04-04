@@ -6,6 +6,12 @@ All my domotic stuff summarized
 # LCD screen
 * [Drivers](https://github.com/goodtft/LCD-show)
    * My screen is : `Jun_Electronic pour écran Raspberry Pi 4, Moniteur Tactile capacitif IPS HDMI de 7 Pouces - Écran LCD 1024 * 600 HD (système Raspbian Buster Pris en Charge)`
+   * sudo nano /opt/kiosk/kiosk.sh
+```
+#!/bin/bash
+/usr/bin/dbus-run-session /usr/bin/onboard &
+/usr/bin/chromium --app=https://clouvert.duckdns.org/lovelace/0  --noerrdialogs --disable-infobars --kiosk --window-position=0,0 --window-size=320,480
+```
 
 ### Installation
 * Rapsberry warm up
