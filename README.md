@@ -1,7 +1,9 @@
 # GrunnDomo
 All my domotic stuff summarized
 
-- Kevin : sudo service pigpiod status
+- Kevin
+  - sudo service pigpiod status
+  - pinctrl -p get
 - https://www.home-assistant.io/integrations/remote_rpi_gpio/
 - config dans configuration.yaml
 ```
