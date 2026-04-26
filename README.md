@@ -1,6 +1,31 @@
 # GrunnDomo
 All my domotic stuff summarized
 
+- Kevin : sudo service pigpiod status
+- https://www.home-assistant.io/integrations/remote_rpi_gpio/
+- config dans configuration.yaml
+```
+# Gestion GPIO distant - garage
+switch:
+  - platform: remote_rpi_gpio
+    host: 192.168.1.170
+    ports:
+      22: kevin_gpio_22
+      23: kevin_gpio_23
+      24: kevin_gpio_24
+    invert_logic: false
+
+# Gestion GPIO distant - eau
+binary_sensor:
+  - platform: remote_rpi_gpio
+    host: 192.168.1.170
+    ports:
+      17: kevin_gpio_17
+      25: kevin_gpio_25
+    invert_logic: false
+```
+- alternative : https://github.com/flyte/mqtt-io
+
 ## All Raspberry
 
 # LCD screen
