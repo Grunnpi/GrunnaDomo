@@ -2,6 +2,11 @@
 All my domotic stuff summarized
 
 - Kevin
+  - en cas de panne :
+  - reboot Kevin, si pas ok
+  - assurer tous les gpio ok
+  - débrancher alimentation kevin 10s / rebrancher
+  - HA doit reboot ensuite pour remonter intégration remote gpio 
   - sudo service pigpiod status
   - pinctrl -p get
 - https://www.home-assistant.io/integrations/remote_rpi_gpio/
